@@ -1,0 +1,227 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: green;
+    padding: 30px;
+    color: white;
+    background-image: url('./img/goodOmens.jpeg');
+    background-position: center;
+  } */
+
+  /* body {
+    background-image: url('../../img/good\ omens.webp');
+  } */
+  
+  .app {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(133, 0, 0, 0.74);
+    padding: 20px 30px;
+    border-radius: 10px;
+    /* background-image: url('../../img/go.jpg'); */
+    /* background-size: cover;
+    background-position: center; */
+  }
+  
+  h1 {
+    text-align: center;
+    text-shadow: 0 0 20px black;
+    color: white;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  p {
+    margin: 20px 0;
+    color: white;
+  }
+  
+  input {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 100%;
+    color: black;
+  }
+  
+  select {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 100%;
+  }
+  
+  button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.3s;
+    margin-right: 5px;
+  }
+  
+  button:hover {
+    opacity: 2;
+  }
+  
+  .complete {
+    background-color: red;
+    color: white;
+  }
+  
+  .complete:hover {
+    background-color: rgb(0, 247, 255);
+    color: black;
+    border: 1px solid blue;
+  }
+  
+  .remove {
+    background-color: white;
+    color: black;
+  }
+  
+  .remove:hover {
+    background-color: black;
+    color: red;
+    border: 1px solid white;
+  }
+  
+  .create {
+    background-color: rgb(0, 247, 255);
+    color: black;
+    margin-right: 395px;
+  }
+
+  .back {
+    border: white solid 2px ;
+    background-color: black;
+    color: rgb(0, 255, 242);
+  }
+  
+  .todo-form {
+    padding-bottom: 1.5rem;
+  }
+  
+  .todo-list {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+  }
+  
+  .todo {
+    background-color: black;
+    box-shadow: 0 0 10px red;
+    padding: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .todo.completed {
+    text-decoration: line-through;
+  }
+  
+  .filter, .search {
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px red;
+  }
+  
+  .filter-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 20rem;
+    margin-left: 10px;
+  }
+  
+  .filter-options div {
+    flex: 1 1 0;
+  }
+  
+  .filter h2 {
+    margin-left: 10px;
+    padding-top: 3px;
+    margin-bottom: 5px;
+    color: red;
+  }
+  
+  .search h2 {
+    margin-left: 10px;
+    padding-top: 3px;
+    margin-bottom: 15px;
+    color: red;
+  }
+  
+  .search input {
+    margin-left: 10px;
+    width: 94%;
+    box-shadow: 0 0 12px red;
+    color: black;
+  }
+  
+  .custom-alert {
+    position:absolute;
+    bottom: 90%;
+    right: 50px;
+    padding: 16px;
+    background-color: #f0f0f0;
+    border: 5px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .custom-alert span {
+    margin-right: 16px;
+  }
+  
+  .custom-alert button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .custom-alert.error {
+    background-color: black;
+    border-color: red;
+    color: #fc041d;
+  }
+  
+  .custom-alert.warn {
+    background-color: red;
+    border-color: black;
+    color: black;
+  }
+  
+  .custom-alert.success {
+    background-color: #cac83b;
+    border-color: #c3e6cb;
+    color: white;
+  }
+
+  .custom-alert.ok {
+    background-color: rgb(104, 243, 104);
+    border-color: white;
+    color: black;
+  }
+
+  .custom-alert.remove {
+    background-color: rgb(195, 0, 255);
+    border-color: black;
+    color: black;
+  }
